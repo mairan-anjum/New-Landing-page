@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 3.25rem;
+  line-height: 4.563rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1rem;
+  color: white;
+  line-height: 2rem;
+}
+button {
+  border: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 27px 101px;
+  margin-bottom: -104px;
+}
+.head_img {
+  flex: 1;
+}
+.head_img > img {
+  width: 157px;
+}
+header > :nth-child(2) {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: right;
+}
+#for_padd {
+  padding-top: 6px;
+}
+#btnn1 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #58c396;
+  background-color: white;
+  padding: 12.8px 34px;
+  border-radius: 25px;
+}
+
+/* Section 1 */
+.section_1 {
+  background-image: url("images/Digiaxo-1920-x-1280-1-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  background-color: #121620;
+  padding: 14% 5% 12% 5%;
+  background-position-y: -150px;
+}
+
+.section_img {
+  width: 32.5rem;
+}
+
+.sect_div1 {
+  width: 547px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 34px;
+}
+.sect_div2 {
+  flex: 1;
+  text-align: right;
+  padding-right: 34px;
+}
+
+.sect_div1 > button {
+  color: white;
+  font-size: 0.688rem;
+  font-weight: 600;
+  padding: 7px 23px;
+  background-color: #58c396;
+}
+.btn_2 {
+  padding-top: 30px;
+}
+.btn1 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #58c396;
+  background-color: white;
+  padding: 12.8px 34px;
+  border-radius: 25px;
+  margin-right: 9px;
+}
+.btn1:hover {
+  color: #ffffff;
+  background-color: #58c396;
+}
+.btn2 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  background-color: #58c396;
+  padding: 12.8px 34px;
+  border-radius: 25px;
+}
+.btn2:hover {
+  color: #58c396;
+  background-color: #ffffff;
+}
+.sect_div1 > h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/*For mobile Version */
+@media only screen and (max-width: 600px) and (min-width: 280px) {
+  header {
+    padding: 23px 18px;
+    margin-bottom: -104px;
+  }
+  #btnn1 {
+    padding: 6px 22.5px;
+    line-height: 12px;
+    font-size: 12px;
+  }
+  .head_img > img {
+    width: 113px;
+  }
+
+  #for_padd {
+    display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  /* Section 1 */
+
+  .section_1 {
+    padding: 118px 18px 20px 18px;
+    background-position-y: -35px;
+    background-position-x: -140px;
+    flex-direction: column;
+  }
+  .section_img {
+    width: 100%;
+  }
+  .sect_div2 {
+    flex: 1;
+    text-align: center;
+    padding: 29px 12px 0px 12px;
+  }
+  .sect_div1 {
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 0px;
+  }
+  .btn1 {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 25px;
+  }
+  .btn2 {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 25px;
+  }
+  .sect_div1 > button {
+    font-size: 8px;
+    padding: 8px 23.5px;
+  }
+  .sect_div1 > h1 {
+    padding-bottom: 20px;
+  }
+  .btn_2 {
+    padding-top: 20px;
+  }
+}
